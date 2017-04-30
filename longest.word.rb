@@ -1,4 +1,5 @@
 # Complete the method called find_longest_word, which will accept a string as a parameter (usually a sentence), and return another string that will be the longest word in that sentence.
+
 def find_longest_word(sentence)
     words = sentence.split
     long = words[0]
@@ -25,7 +26,4 @@ if result == "longest"
   puts "PASS!"
 else
   puts "F"
-end
-def find_longest_word(sentence)
-
 end
